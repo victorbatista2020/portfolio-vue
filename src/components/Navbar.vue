@@ -10,7 +10,7 @@
                 <ul>
                     <li class="nav-item"><a href="#about" class="nav-link">Início</a></li>
                     <li class="nav-item"><a href="#skills" class="nav-link">Habilidades</a></li>
-                    <li class="nav-item"><a href="#address" class="nav-link">Endereço</a></li>
+                    <li class="nav-item"><a href="#projects" class="nav-link">Projetos</a></li>
                     <li class="nav-item"><a href="#contact" class="nav-link">Contato</a></li>
                 </ul>
             </div>
@@ -25,7 +25,7 @@
             <ul>
                 <li class="nav-item"><a href="#about" class="nav-link">Início</a></li>
                 <li class="nav-item"><a href="#skills" class="nav-link">Habilidades</a></li>
-                <li class="nav-item"><a href="#address" class="nav-link">Endereço</a></li>
+                <li class="nav-item"><a href="#projects" class="nav-link">Projetos</a></li>
                 <li class="nav-item"><a href="#contact" class="nav-link">Contato</a></li>
             </ul>
         </div>

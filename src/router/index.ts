@@ -6,6 +6,7 @@ import Skills from '@/components/Skills.vue'
 const routes: Array<RouteRecordRaw> = [
   { path: '/', name: 'About', component: About },
   { path: '/skills', name: 'Skills', component: Skills },
+  { path: '/contact', name: 'Contact', component: Contact }
  
 ]
 
