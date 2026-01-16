@@ -21,30 +21,7 @@
        <p> Para mais informações sobre os meus projetos e quais tecnologias foram utilizadas, basta acessar o meu <span>Repositorio</span> no github</p>
         E para entrar em contato comigo basta clicar em um dos links abaixo que eu estarei a sua disposição
         <div class="social-links">
-          <a
-            href="https://www.facebook.com/seuPerfil"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img
-              src="https://cdn-icons-png.flaticon.com/512/733/733547.png"
-              alt="Facebook"
-              width="32"
-              height="32"
-            />
-          </a>
-          <a
-            href="https://www.instagram.com/seuPerfil"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img
-              src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png"
-              alt="Instagram"
-              width="32"
-              height="32"
-            />
-          </a>
+          
         </div>
       </div>
     </div>

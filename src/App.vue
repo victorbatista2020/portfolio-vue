@@ -3,6 +3,7 @@
   <Navbar/>
   <About/>
   <Skills/>
+  <Projects/>
   <Contact/>
  
   
@@ -12,6 +13,7 @@
   import Navbar from './components/Navbar.vue'
   import About from './components/About.vue'
   import Skills from './components/Skills.vue'
+  import Projects from '@/components/Projects.vue'
   import Contact from './components/Contact.vue'
   
   
