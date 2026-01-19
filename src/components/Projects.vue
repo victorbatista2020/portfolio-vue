@@ -7,14 +7,6 @@
          <div class="projects-item"><a href="https://victorbatista2020.github.io/calculadora-imc/" target="blank">
                <h2><span>Calculadora-imc</span></h2>
                <img src="@/components/imgs/projects/calculadora-imc.png">
-               <p class="text"> É útilizada para calcular o seu imc e verificar qual é o seu grau de obesidade <br>
-                  Tecnologias usadas : Javascript, HTML, CSS </p>
-            </a>
-         </div>
-
-         <div class="projects-item"><a href="https://victorbatista2020.github.io/calculadora-imc/" target="blank">
-               <h2><span>Calculadora-imc</span></h2>
-               <img src="@/components/imgs/projects/calculadora-imc.png">
                <p class="text"> É útilizada para calcular o seu imc e verificar qual é o seu grau de obesidade</p>
                <p class="second-text"> Tecnologias usadas : Javascript, HTML, CSS </p>
             </a>
