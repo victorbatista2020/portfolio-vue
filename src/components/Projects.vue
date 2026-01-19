@@ -5,10 +5,18 @@
       <div class="projects">
 
          <div class="projects-item"><a href="https://victorbatista2020.github.io/calculadora-imc/" target="blank">
-               <h2><span>Calculadora-imc</span></h2>
+               <h2><span>Calculadora IMC</span></h2>
                <img src="@/components/imgs/projects/calculadora-imc.png">
                <p class="text"> É útilizada para calcular o seu imc e verificar qual é o seu grau de obesidade</p>
                <p class="second-text"> Tecnologias usadas : Javascript, HTML, CSS </p>
+            </a>
+         </div>
+
+         <div class="projects-item"><a href="https://victorbatista2020.github.io/lojatemplate/" target="blank">
+               <h2><span>Salão Template</span></h2>
+               <img src="@/components/imgs/projects/salao-template.png">
+               <p class="text"> Landing page montada para um salao de beleza fazer propaganda do seu negocio nas redes socias</p>
+               <p class="second-text"> Tecnologias usadas : VUE.JS </p>
             </a>
          </div>
 
@@ -62,8 +70,8 @@
 
 .projects-item img {
    padding: 10px;
-   max-height: 250px;
-   min-width: 250px;
+   max-height: 200px;
+   min-width: 200px;
 }
 
 .projects-item a {
