@@ -11,11 +11,12 @@
 
     </div>
     <div class="social-buttons">
-      <a href="https://www.linkedin.com/in/seu-usuario" target="_blank" class="social-btn">
-        <i class="fab fa-linkedin-in"></i>
+      <a href="https://www.linkedin.com/in/victor-batista-446a99192/" target="_blank" class="social-btn">
+        <i class="bi bi-linkedin" />
       </a>
-      <a href="https://www.instagram.com/seu-usuario" target="_blank" class="social-btn">
-        <i class="fab fa-instagram"></i>
+      <a href="https://wa.me/5511940430289?text=Ol%C3%A1%2C%20vi%20o%20seu%20portfolio%2C%20quero%20te%20contratar"
+        target="_blank" class="social-btn">
+        <i class="bi bi-whatsapp" />
       </a>
     </div>
 

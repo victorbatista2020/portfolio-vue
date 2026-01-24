@@ -2,13 +2,15 @@
   "name": "portfolio-vue",
   "version": "0.1.0",
   "private": true,
- "scripts": {
-  "serve": "vue-cli-service serve",
-  "build": "vue-cli-service build",
-  "lint": "vue-cli-service lint",
-  "deploy": "npm run build && gh-pages -d dist"
-},
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "deploy": "npm run build && gh-pages -d dist"
+  },
   "dependencies": {
+    "bootstrap": "^5.3.8",
+    "bootstrap-icons": "^1.13.1",
     "vue": "^3.2.13",
     "vue-class-component": "^8.0.0-0",
     "vue-router": "^4.6.4"
