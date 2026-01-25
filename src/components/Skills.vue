@@ -1,6 +1,6 @@
 <template>
     <div class="skills-content" id="skills">
-        <h1>PRINCIPAIS <span>HABILIDADES</span></h1>
+        <h1 class="h1">PRINCIPAIS <span>HABILIDADES</span></h1>
 
         <div class="skills">
             <div class="skills-item">
@@ -58,7 +58,7 @@
       <h2 class="extra">HABILIDADES <span>EXTRAS</span></h2>
         <div class="skills-extra">
             
-            <div class="skills-extra-item">
+            <div class="skills-item">
                 <h2><span>HTML</span></h2>
                 <img src="@/components/imgs/skills/html.png">
                 <p class="text"> É a linguagem fundamental para criar e estruturar páginas web.
@@ -66,7 +66,7 @@
                       que usa tags para definir o conteúdo de um site </p>
             </div>
 
-            <div class="skills-extra-item">
+            <div class="skills-item">
                 <h2><span>CSS</span></h2>
                 <img src="@/components/imgs/skills/css.png">
                 <p class="text"> É  uma linguagem de estilo usada para descrever a aparência de documentos
@@ -74,7 +74,7 @@
                       papel ou em outras mídias, definindo cores, fontes, espaçamentos e layouts </p>
             </div>
 
-            <div class="skills-extra-item">
+            <div class="skills-item">
                 <h2><span>JavaScript</span></h2>
                 <img src="@/components/imgs/skills/javascript.png">
                 <p class="text"> É uma linguagem de programação usada para adicionar interatividade
@@ -82,7 +82,7 @@
                       interativos, tornando a experiência do usuário mais rica e responsiva </p>
             </div>
 
-            <div class="skills-extra-item">
+            <div class="skills-item">
                 <h2><span>Sony Vegas Pro</span></h2>
                 <img src="@/components/imgs/skills/sony_vegas.png">
                 <p class="text"> É um software de edição de vídeo e áudio profissional que permite criar
@@ -91,7 +91,7 @@
                       e recursos avançados como edição baseada em texto com IA </p>
             </div>
 
-            <div class="skills-extra-item">
+            <div class="skills-item">
                 <h2><span>Photoshop CS6</span></h2>
                 <img src="@/components/imgs/skills/photoshop.png">
                 <p class="text"> É um Ambiente de Desenvolvimento Integrado (IDE) livre e de código aberto,
@@ -100,7 +100,7 @@
                        como Java, C++, PHP e Python, através de um sistema de plugins </p>
             </div>
 
-            <div class="skills-extra-item">
+            <div class="skills-item">
                 <h2><span>Em Andamento</span></h2>
                 <img src="">
                 <p class="text"> Estou sempre aprendendo novas habilidades, muito em breve ela vai ser anunciada nesse campo </p>
@@ -114,15 +114,9 @@
 </script>
 <style scope>
 
-.skills-content h1 {
-    text-align: center;
-    padding-top: 30px;
-}
-
 .skills-content h2 {
     text-align: center;
 }
-
 
 .skills {
     display: flex;
@@ -155,10 +149,6 @@
     box-shadow: 0 0 15px #e24d4d;
 }
 
-.text{
-    text-align: left;
-}
-
 .extra{
     padding-top: 30px;
 }
@@ -170,31 +160,6 @@
     justify-content: center;
     padding-top: 30px;
 }
-
-.skills-extra-item {
-    flex: 1 1 calc(33.333% - 10px);
-    box-sizing: border-box;
-    padding: 10px;
-    text-align: center;
-    border: 1px solid #f30000;
-    border-radius: 5px;
-    min-width: 250px;
-    max-height: 550px;
-    min-height: 150px;
-}
-
-.skills-extra-item img {
-    padding: 10px;
-    max-height: 150px;
-    min-width: 150px;
-}
-
-.skills-extra-item:hover {
-    transform: scale(1.05);
-    box-shadow: 0 0 15px #e24d4d;
-}
-
-
 
 @media (max-width: 768px) {
     .skills-item {

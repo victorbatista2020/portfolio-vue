@@ -44,29 +44,4 @@
   padding-top: 30px;
 }
 
-.social-buttons {
-  padding-top: 50px;
-  display: flex;
-  gap: 15px;
-  justify-content: left;
-}
-
-.social-btn {
-  background-color: red;
-  color: rgb(2, 2, 2);
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-decoration: none;
-  font-size: 20px;
-  transition: background-color 0.3s, transform 0.3s;
-}
-
-.social-btn:hover {
-  background-color: darkred;
-  transform: scale(1.1);
-}
 </style>
