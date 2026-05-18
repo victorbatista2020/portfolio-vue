@@ -112,11 +112,9 @@ export const texts = {
       
       contact: {
         title: "MEUS CONTATOS",
-      
         text1: "Para mais informações sobre os meus projetos e quais tecnologias foram utilizadas, basta acessar o meu",
         repo: "Repositório",
         text2: "no GitHub.",
-      
         text3: "E para entrar em contato comigo, basta clicar em um dos links abaixo que estarei à sua disposição."
       }
   
@@ -235,11 +233,9 @@ export const texts = {
 
       contact: {
         title: "MY CONTACTS",
-      
         text1: "For more information about my projects and the technologies used, you can access my",
         repo: "Repository",
         text2: "on GitHub.",
-      
         text3: "And to contact me, just click one of the links below and I will be available to help you."
       }
 
