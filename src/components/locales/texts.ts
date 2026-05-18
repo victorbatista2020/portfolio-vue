@@ -8,7 +8,7 @@ export const texts = {
       },
 
       about: {
-        title: `Oi TUDO BEM,<br><span>SOU VICTOR BATISTA</span>`,
+        title: `Oi TUDO BEM<br><span>SOU VICTOR BATISTA</span>`,
         description: `
           Meu nome é Victor Batista, tenho graduação em Ciência da Computação na Universidade Paulista (UNIP),
           sou desenvolvedor <span><b>Full Stack (Front-end + back-end)</b></span>,
@@ -131,7 +131,7 @@ export const texts = {
       },
 
       about: {
-        title: `HI HOW ARE YOU,<br><span>I'M VICTOR BATISTA</span>`,
+        title: `HI HOW ARE YOU<br><span>I'M VICTOR BATISTA</span>`,
         description: `
           My name is Victor Batista, I have a degree in Computer Science from Universidade Paulista (UNIP),
           I am a <span><b>Full Stack Developer (Front-end + Back-end)</b></span>,

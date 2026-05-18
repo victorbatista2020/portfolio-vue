@@ -62,6 +62,10 @@ export default defineComponent({
   width: 150px;
   margin-bottom: 20px;
   padding: 5px;
-  border-radius: 5px;
+  border-radius: 10px;
+  border-color: red;
+  background-color: black;
+  color: white;
+  
 }
 </style>
