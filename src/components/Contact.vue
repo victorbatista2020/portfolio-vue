@@ -1,16 +1,25 @@
 <template>
   <div class="contact-content" id="contact">
-    <h1>MEUS <span>CONTATOS</span></h1>
+    <h1>{{ texts[language].contact.title.split(" ")[0] }}
+      <span>{{ texts[language].contact.title.split(" ").slice(1).join(" ") }}</span></h1>
 
     <div class="social-media">
-      <p> Para mais informações sobre os meus projetos e quais tecnologias foram utilizadas, basta acessar o meu
-        <span>Repositorio</span> no github</p>
-      E para entrar em contato comigo basta clicar em um dos links abaixo que eu estarei a sua disposição
+      <p>
+        {{ texts[language].contact.text1 }}
+
+        <span>{{ texts[language].contact.repo }}</span>
+
+        {{ texts[language].contact.text2 }}
+      </p>
+
+      <p>
+        {{ texts[language].contact.text3 }}
+      </p>
       <div class="social-buttons">
-        <a href="https://www.linkedin.com/in/seu-usuario" target="_blank" class="social-btn">
+        <a href="https://www.linkedin.com/in/victor-batista-446a99192/" target="_blank" class="social-btn">
           <i class="bi bi-linkedin" />
         </a>
-        <a href="https://wa.me/5511940430289?text=Ol%C3%A1%2C%20vi%20o%20seu%20portfolio%2C%20quero%20te%20contratar"
+        <a href="https://wa.me/5511940430289?text=Ol%C3%A1%2C%20vi%20o%20seu%20portfolio%2C%20vamos%20conversar"
           target="_blank" class="social-btn">
           <i class="bi bi-whatsapp"/>
         </a>
@@ -20,6 +29,8 @@
 </template>
 
 <script setup lang="ts">
+import { texts } from './locales/texts';
+import { language } from "./locales/language";
 </script>
 
 <style scoped>

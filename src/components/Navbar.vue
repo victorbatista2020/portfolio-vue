@@ -8,10 +8,10 @@
             </div>
             <div class="nav-list" :class="{ open: isMenuOpen }">
                 <ul>
-                    <li class="nav-item"><a href="#about" class="nav-link">Início</a></li>
-                    <li class="nav-item"><a href="#skills" class="nav-link">Habilidades</a></li>
-                    <li class="nav-item"><a href="#projects" class="nav-link">Projetos</a></li>
-                    <li class="nav-item"><a href="#contact" class="nav-link">Contato</a></li>
+                    <li class="nav-item"><a href="#about" class="nav-link">{{ texts[language].navbar.home }}</a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-link">{{ texts[language].navbar.skills }}</a></li>
+                    <li class="nav-item"><a href="#projects" class="nav-link">{{ texts[language].navbar.projects }}</a></li>
+                    <li class="nav-item"><a href="#contact" class="nav-link">{{ texts[language].navbar.contact }}</a></li>
                 </ul>
             </div>
 
@@ -23,17 +23,19 @@
         </nav>
         <div class="mobile-menu" :class="{ open: isMenuOpen }" @click="closeMenu">
             <ul>
-                <li class="nav-item"><a href="#about" class="nav-link">Início</a></li>
-                <li class="nav-item"><a href="#skills" class="nav-link">Habilidades</a></li>
-                <li class="nav-item"><a href="#projects" class="nav-link">Projetos</a></li>
-                <li class="nav-item"><a href="#contact" class="nav-link">Contato</a></li>
+                <li class="nav-item"><a href="#about" class="nav-link">{{ texts[language].navbar.home }}</a></li>
+                <li class="nav-item"><a href="#skills" class="nav-link">{{ texts[language].navbar.skills }}</a></li>
+                <li class="nav-item"><a href="#projects" class="nav-link">{{ texts[language].navbar.projects }}</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link">{{ texts[language].navbar.contact }}</a></li>
             </ul>
         </div>
     </header>
 </template>
 
 <script setup lang="ts">
-import { ref } from 'vue';
+import { defineComponent, ref } from 'vue';
+import { texts } from './locales/texts';
+import { language } from "./locales/language";
 
 const isMenuOpen = ref(false);
 

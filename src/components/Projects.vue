@@ -1,29 +1,48 @@
 <template>
    <div class="projects-content" id="projects">
-      <h1>MEUS <span>PROJETOS</span></h1>
+      <h1>{{ texts[language].projects.title.split(" ")[0] }} <span>{{ texts[language].projects.title.split(" ").slice(1).join(" ") }}</span></h1>
 
       <div class="projects">
 
          <div class="projects-item"><a href="https://victorbatista2020.github.io/calculadora-imc/" target="blank">
-               <h2><span>Calculadora IMC</span></h2>
+               <h2><span>{{ texts[language].projects.imc.title }}</span></h2>
                <img src="@/components/imgs/projects/calculadora-imc.png">
-               <p class="text"> É útilizada para calcular o seu imc e verificar qual é o seu grau de obesidade</p>
-               <p class="second-text"> Tecnologias usadas : Javascript, HTML, CSS </p>
+               <p class="text"> {{ texts[language].projects.imc.text }}</p>
+               <p class="second-text"> {{ texts[language].projects.imc.tech }} </p>
             </a>
          </div>
 
          <div class="projects-item"><a href="https://victorbatista2020.github.io/lojatemplate/" target="blank">
-               <h2><span>Salão Template</span></h2>
+               <h2><span>{{ texts[language].projects.salon.title }}</span></h2>
                <img src="@/components/imgs/projects/salao-template.png">
-               <p class="text"> Landing page montada para um salao de beleza fazer propaganda do seu negocio nas redes socias</p>
-               <p class="second-text"> Tecnologias usadas : VUE.JS </p>
+               <p class="text"> {{ texts[language].projects.salon.text }}</p>
+               <p class="second-text"> {{ texts[language].projects.salon.tech }} </p>
+            </a>
+         </div>
+
+         <div class="projects-item"><a href="" target="blank">
+               <h2><span>{{ texts[language].projects.coming.title }}</span></h2>
+               <img src="">
+               <p class="text"> {{ texts[language].projects.coming.text }} </p>
+               <p class="second-text"> </p>
+            </a>
+         </div>
+
+         <div class="projects-item"><a href="" target="blank">
+               <h2><span>{{ texts[language].projects.coming2.title }}</span></h2>
+               <img src="">
+               <p class="text">{{ texts[language].projects.coming2.text }}</p>
+               <p class="second-text">  </p>
             </a>
          </div>
 
       </div>
    </div>
 </template>
-
+<script setup lang="ts">
+import { texts } from './locales/texts';
+import { language } from "./locales/language";
+</script>
 <style scoped>
 .second-text {
    text-align: left;

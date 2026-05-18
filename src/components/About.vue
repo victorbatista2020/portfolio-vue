@@ -1,15 +1,16 @@
 <template>
   <div class="about-content" id="about">
-    <h2>Oi TUDO BEM,<br><span>SOU VICTOR BATISTA</span></h2>
-    <div class="about">
 
-      Meu nome é Victor Batista, tenho graduação em Ciencia da Computação na Universidade Paulista (UNIP),
-      sou desenvolvedor <span><b>Full Stack( Front-end + back-end)</b></span>, tenho habiliades com o
-      ,<span><b>VUE.JS</b></span> para desenvolvedor projetos Front-end,
-      e utilizo o <span><b>JAVA</b></span> para criar os projetos de back-end
+    <select v-model="language" class="language-select">
+      <option value="en">English</option>
+      <option value="pt">Português</option>
+      
+    </select>
 
+    <h2 v-html="texts[language].about.title"></h2>
 
-    </div>
+    <div class="about" v-html="texts[language].about.description"></div>
+
     <div class="social-buttons">
       <a href="https://www.linkedin.com/in/victor-batista-446a99192/" target="_blank" class="social-btn">
         <i class="bi bi-linkedin" />
@@ -23,8 +24,20 @@
   </div>
 </template>
 
-
 <script lang="ts">
+import { defineComponent, ref } from "vue";
+import { texts } from "./locales/texts";
+import { language } from "./locales/language";
+
+export default defineComponent({
+  setup() {
+
+    return {
+      language,
+      texts
+    };
+  }
+});
 </script>
 
 <style scoped>
@@ -44,4 +57,11 @@
   padding-top: 30px;
 }
 
+.language-select {
+  align-self: flex-end;
+  width: 150px;
+  margin-bottom: 20px;
+  padding: 5px;
+  border-radius: 5px;
+}
 </style>
