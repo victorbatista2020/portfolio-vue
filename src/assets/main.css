@@ -62,3 +62,12 @@ span{
   background-color: darkred;
   transform: scale(1.1);
 }
+
+a {
+  color: red;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #5cc5ee;
+}

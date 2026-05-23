@@ -15,10 +15,13 @@
       <a href="https://www.linkedin.com/in/victor-batista-446a99192/" target="_blank" class="social-btn">
         <i class="bi bi-linkedin" />
       </a>
-      <a href="https://wa.me/5511940430289?text=Ol%C3%A1%2C%20vi%20o%20seu%20portfolio%2C%20quero%20te%20contratar"
+      <a href="https://wa.me/5511940430289?text=Ol%C3%A1%2C%20vi%20o%20seu%20portfolio%2C%20vamos%20conversar"
         target="_blank" class="social-btn">
         <i class="bi bi-whatsapp" />
       </a>
+      <a href="https://github.com/victorbatista2020?tab=repositories" target="_blank" class="social-btn">
+          <i class="bi bi-github" />
+        </a>
     </div>
 
   </div>

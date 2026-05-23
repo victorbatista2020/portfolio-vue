@@ -7,7 +7,7 @@
       <p>
         {{ texts[language].contact.text1 }}
 
-        <span>{{ texts[language].contact.repo }}</span>
+        <span><a href="https://github.com/victorbatista2020?tab=repositories" target="_blank">{{ texts[language].contact.repo }}</a></span>
 
         {{ texts[language].contact.text2 }}
       </p>
@@ -22,6 +22,9 @@
         <a href="https://wa.me/5511940430289?text=Ol%C3%A1%2C%20vi%20o%20seu%20portfolio%2C%20vamos%20conversar"
           target="_blank" class="social-btn">
           <i class="bi bi-whatsapp"/>
+        </a>
+        <a href="https://github.com/victorbatista2020?tab=repositories" target="_blank" class="social-btn">
+          <i class="bi bi-github" />
         </a>
       </div>
     </div>
