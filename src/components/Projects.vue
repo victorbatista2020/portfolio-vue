@@ -10,7 +10,7 @@
                <p class="text"> {{ texts[language].projects.imc.text }}</p>
                <p class="second-text"> {{ texts[language].projects.imc.tech }} </p>
             </a>
-            <a class="repo-button" href="https://github.com/seu-usuario/repositorio-imc" target="_blank"
+            <a class="repo-button" href="https://github.com/victorbatista2020/calculadora-imc" target="_blank"
             >{{ texts[language].projects.repo }}</a>
          </div>
 
@@ -20,7 +20,7 @@
                <p class="text"> {{ texts[language].projects.salon.text }}</p>
                <p class="second-text"> {{ texts[language].projects.salon.tech }} </p>
             </a>
-            <a class="repo-button" href="https://github.com/seu-usuario/repositorio-imc" target="_blank"
+            <a class="repo-button" href="https://github.com/victorbatista2020/lojatemplate" target="_blank"
             >{{ texts[language].projects.repo }}</a>
          </div>
 
