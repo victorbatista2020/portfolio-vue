@@ -84,6 +84,7 @@ export const texts = {
 
     projects: {
         title: "MEUS PROJETOS",
+        repo: "Repositório",
       
         imc: {
           title: "Calculadora IMC",
@@ -205,6 +206,7 @@ export const texts = {
 
       projects: {
         title: "MY PROJECTS",
+        repo: "Repository",
       
         imc: {
           title: "IMC Calculator",

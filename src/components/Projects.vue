@@ -10,6 +10,8 @@
                <p class="text"> {{ texts[language].projects.imc.text }}</p>
                <p class="second-text"> {{ texts[language].projects.imc.tech }} </p>
             </a>
+            <a class="repo-button" href="https://github.com/seu-usuario/repositorio-imc" target="_blank"
+            >{{ texts[language].projects.repo }}</a>
          </div>
 
          <div class="projects-item"><a href="https://victorbatista2020.github.io/lojatemplate/" target="blank">
@@ -18,6 +20,8 @@
                <p class="text"> {{ texts[language].projects.salon.text }}</p>
                <p class="second-text"> {{ texts[language].projects.salon.tech }} </p>
             </a>
+            <a class="repo-button" href="https://github.com/seu-usuario/repositorio-imc" target="_blank"
+            >{{ texts[language].projects.repo }}</a>
          </div>
 
          <div class="projects-item"><a href="" target="blank">
@@ -26,6 +30,8 @@
                <p class="text"> {{ texts[language].projects.coming.text }} </p>
                <p class="second-text"> </p>
             </a>
+            <a class="repo-button" href="" target="_blank"
+            >{{ texts[language].projects.repo }}</a>
          </div>
 
          <div class="projects-item"><a href="" target="blank">
@@ -34,6 +40,8 @@
                <p class="text">{{ texts[language].projects.coming2.text }}</p>
                <p class="second-text">  </p>
             </a>
+            <a class="repo-button" href="" target="_blank"
+            >{{ texts[language].projects.repo }}</a>
          </div>
 
       </div>
@@ -97,5 +105,21 @@ import { language } from "./locales/language";
    text-decoration: none;
    color: inherit;
    display: block;
+}
+
+.repo-button {
+   margin-top: 15px;
+   display: inline-block !important;
+   padding: 10px 20px;
+   background-color: #f30000;
+   color: white !important;
+   border-radius: 5px;
+   font-weight: bold;
+   transition: 0.3s;
+}
+
+.repo-button:hover {
+   background-color: #ff4d4d;
+   transform: scale(1.05);
 }
 </style>
