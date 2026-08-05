@@ -2,9 +2,9 @@
   <div class="about-content" id="about">
 
     <div class="top-selects">
-      <select v-model="darklight" class="darklight-select">
-        <option value="Dark">Light</option>
-        <option value="light">Dark</option>
+      <select  class="darklight-select">
+        <option value="Dark">Dark</option>
+        <option value="light">Light</option>
       </select>
 
       <select v-model="language" class="language-select">
@@ -45,14 +45,13 @@
 import { defineComponent, ref } from "vue";
 import { texts } from "./locales/texts";
 import { language } from "./locales/language";
-import { darklight } from "./locales/language";
+
 
 export default defineComponent({
   setup() {
 
     return {
       language,
-      darklight,
       texts
     };
   }
