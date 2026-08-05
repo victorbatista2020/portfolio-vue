@@ -13,8 +13,8 @@ export const texts = {
           Meu nome é Victor Batista, tenho graduação em Ciência da Computação na Universidade Paulista (UNIP),
           sou desenvolvedor <span><b>Full Stack (Front-end + back-end)</b></span>,
           tenho habilidades com <span><b>VUE.JS</b></span> para projetos Front-end,
-          e utilizo <span><b>JAVA</b></span> para criar projetos de back-end.
-        `
+          e utilizo <span><b>JAVA</b></span> para criar projetos de back-end.`,
+          resumeButton:'Baixar currículo'
       },
 
       skills: {
@@ -136,7 +136,8 @@ export const texts = {
           I am a <span><b>Full Stack Developer (Front-end + Back-end)</b></span>,
           I have experience with <span><b>VUE.JS</b></span> for front-end projects,
           and I use <span><b>JAVA</b></span> to build back-end applications.
-        `
+        `,
+        resumeButton:'Resume Download'
       },
 
       skills: {
