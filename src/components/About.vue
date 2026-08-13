@@ -2,10 +2,12 @@
   <div class="about-content" id="about">
 
     <div class="top-selects">
+      <!--
       <select  class="darklight-select">
         <option value="Dark">Dark</option>
         <option value="light">Light</option>
       </select>
+      -->
 
       <select v-model="language" class="language-select">
         <option value="en">English</option>
