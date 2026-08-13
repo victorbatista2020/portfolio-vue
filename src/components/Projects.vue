@@ -4,7 +4,7 @@
 
       <div class="projects">
 
-         <div class="projects-item"><a href="https://victorbatista2020.github.io/calculadora-imc/" target="blank">
+         <div class="projects-item"><a href="https://victorbatista2020.github.io/calculadora-imc/" target="_blank">
                <h2><span>{{ texts[language].projects.imc.title }}</span></h2>
                <img src="@/components/imgs/projects/calculadora-imc.png">
                <p class="text"> {{ texts[language].projects.imc.text }}</p>
@@ -14,7 +14,7 @@
             >{{ texts[language].projects.repo }}</a>
          </div>
 
-         <div class="projects-item"><a href="https://victorbatista2020.github.io/lojatemplate/" target="blank">
+         <div class="projects-item"><a href="https://victorbatista2020.github.io/lojatemplate/" target="_blank">
                <h2><span>{{ texts[language].projects.salon.title }}</span></h2>
                <img src="@/components/imgs/projects/salao-template.png">
                <p class="text"> {{ texts[language].projects.salon.text }}</p>
