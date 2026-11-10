@@ -24,24 +24,21 @@
             >{{ texts[language].projects.repo }}</a>
          </div>
 
-         <div class="projects-item"><a href="" target="blank">
-               <h2><span>{{ texts[language].projects.coming.title }}</span></h2>
+         <div class="projects-item"><a href="https://controle-estoque-e2ru.onrender.com/product" target="blank">
+               <h2><span>{{ texts[language].projects.product.title }}</span></h2>
                <img src="">
-               <p class="text"> {{ texts[language].projects.coming.text }} </p>
-               <p class="second-text"> </p>
+               <p class="text"> {{ texts[language].projects.product.text }} </p>
+               <p class="second-text"> {{ texts[language].projects.product.tech }} </p>
             </a>
-            <a class="repo-button" href="" target="_blank"
+            <a class="repo-button" href="https://github.com/victorbatista2020/controle-estoque/tree/master" target="_blank"
             >{{ texts[language].projects.repo }}</a>
          </div>
 
-         <div class="projects-item"><a href="" target="blank">
+         <div class="projects-item">
                <h2><span>{{ texts[language].projects.coming2.title }}</span></h2>
                <img src="">
                <p class="text">{{ texts[language].projects.coming2.text }}</p>
-               <p class="second-text">  </p>
-            </a>
-            <a class="repo-button" href="" target="_blank"
-            >{{ texts[language].projects.repo }}</a>
+               <p class="second-text">  </p>         
          </div>
 
       </div>

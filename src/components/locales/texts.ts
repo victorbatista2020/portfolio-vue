@@ -98,10 +98,10 @@ export const texts = {
           tech: "Tecnologias usadas: Vue.js"
         },
       
-        coming: {
-          title: "EM BREVE",
-          text: "Sistema de cadastro e venda de produtos com geração de relatórios.",
-          tech: ""
+        product: {
+          title: "Cadastro de produto",
+          text: "API REST de Controle de Estoque desenvolvida com Java e Spring Boot. O projeto permite cadastrar, consultar, atualizar, listar e excluir produtos utilizando Spring Data JPA e banco de dados H2.",
+          tech: "Tecnologias usadas: Java 21, Spring Boot, Spring Web, Spring Data JPA, H2 Database e Maven."
         },
       
         coming2: {
@@ -221,10 +221,10 @@ export const texts = {
           tech: "Technologies used: Vue.js"
         },
       
-        coming: {
-          title: "COMING SOON",
-          text: "Product registration and sales system with report generation.",
-          tech: ""
+        product: {
+          title: "Product Register",
+          text: "Inventory Management REST API developed using Java and Spring Boot. The project allows users to create, retrieve, update, list, and delete products using Spring Data JPA and an H2 database.",
+          tech: "Technologies used: Java 21, Spring Boot, Spring Web, Spring Data JPA, H2 Database e Maven"
         },
       
         coming2: {
